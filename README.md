@@ -14,3 +14,17 @@ This is an implementation of the <a href="https://arxiv.org/abs/1511.06434">DCGA
 The image below has been obtained after training the model for **50 epochs**.
 
 ![image1](https://raw.githubusercontent.com/yashk2810/DCGAN-Keras/master/images/dcgan.png "image1")
+
+# Requirements
+
+* Keras
+* Tensorflow
+* Numpy
+* Tqdm
+* Matplotlib
+
+# Usage
+
+The DCGAN.ipynb notebook contains the entire code. To model weights for the generator and the discriminator are available in the model weights folder. The dataset used is the MNIST dataset. This dataset is provided by Keras, so there is no need to download it separately.
+
+
